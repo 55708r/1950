@@ -1493,7 +1493,7 @@ RunMultipleSimulations <- function(num_iterations = 500) {
 }
 
 # Create aggregated simulation dataset
-allResults <- RunMultipleSimulations()
+allResults <- RunMultipleSimulations(100)
 head(allResults)
 
 # Some rearrangement: reorder so that "Pre" intervention status precedes "Post"
